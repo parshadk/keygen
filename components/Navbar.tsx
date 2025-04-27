@@ -1,5 +1,4 @@
 import { ModeToggle } from "@/components/ui/theme-button";
-import { useTheme } from "next-themes";
 export function Navbar() {     
     return (
         <div className="w-full h-16 bg-primary/50 backdrop-blur-sm  flex justify-center border-b border-primary/50 rounded-lg shadow-md shadow-primary/50 dark:bg-primary/50 dark:backdrop-blur-sm dark:border-primary/50 dark:shadow-primary/50"> 

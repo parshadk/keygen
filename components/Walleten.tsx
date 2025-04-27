@@ -13,9 +13,6 @@ import { ethers } from "ethers";
 
 
 import {
-    ChevronDown,
-    ChevronUp,
-    Copy,
     Eye,
     EyeOff,
     Grid2X2,
@@ -357,9 +354,7 @@ const Walleten = () => {
                       </p>
                     ))}
                   </motion.div>
-                  <div className="text-sm md:text-base text-primary/50 flex w-full gap-2 items-center group-hover:text-primary/80 transition-all duration-300">
-                    <Copy className="size-4" /> Click Anywhere To Copy
-                  </div>
+              
                 </motion.div>
               )}
             </motion.div>
